@@ -19,6 +19,5 @@ def simple_calculator(n,p, operation):
   return
  print(f"{n} {operation} {p} = {result}")
  #putting the calculatorn action by calling the function.
-simple_calculator() 
- 
- 
+simple_calculator(3,4,operation="+") 
+
